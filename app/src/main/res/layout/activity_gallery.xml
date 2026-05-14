@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5FF"
+    android:padding="16dp">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shilpa Kala Gallery"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#4A148C"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Digital Artisan Portfolio"
+        android:textSize="16sp"
+        android:textColor="#7B1FA2"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Gallery Grid -->
+    <GridView
+        android:id="@+id/galleryGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:verticalSpacing="14dp"
+        android:horizontalSpacing="14dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"/>
+</LinearLayout>

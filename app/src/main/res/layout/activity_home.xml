@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F8F5FF">
+
+    <!-- Logo / Icon -->
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- App Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shilpa Kala"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#4A148C"/>
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digital Portfolio Assistant"
+        android:textSize="17sp"
+        android:textColor="#7B1FA2"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Start Camera Button -->
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="📸 Start Camera"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:elevation="8dp"
+        android:backgroundTint="#8E24AA"
+        android:layout_marginBottom="18dp"/>
+
+
+    <!-- Gallery Button -->
+    <Button
+        android:id="@+id/galleryBtn"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:text="🖼 View Gallery"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#5E35B1"/>
+
+</LinearLayout>
